@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# ThermoLock local runtime metrics & artifacts
+*.prom
+*.jsonl
+*.lock
+
+# Verification Tooling runtime artifacts
+thermolock_review_ledger.json
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary runtime storage
+tmp/
+out/
